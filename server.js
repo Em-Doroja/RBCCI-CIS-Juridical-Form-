@@ -15,13 +15,3 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`RBCCI CIS server running on port ${PORT}`);
 });
-```
-
----
-
-## Your GitHub Repository Should Have These 3 Files:
-```
-your-repo/
-├── index.html       ← your renamed HTML file
-├── package.json     ← tells Railway it's a Node.js app
-└── server.js        ← runs the Express web server
